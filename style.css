@@ -9,10 +9,10 @@
 
 .header-image {
   background-size: cover;
-  background-position: center;
+  background-position: top;
   display: flex;
   text-align: center;
-  min-height: 100vh;
+  min-height: 70vh;
 }
 /* h1, h2 {
   font-family: arial;
@@ -26,11 +26,10 @@ h2 {
   font-size: 2rem;
   color: white;
   font-weight: 300;
-
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   text-align: justify;
   padding-top: 4rem;
 }
@@ -52,41 +51,40 @@ h5 {
 }
 
 span {
-  color: orange;
+  color: #0165bf;
 }
 
 .tile-image {
-  background-image: url('images/charles-deluvio-351207.jpg');
+  background-image: url('/images/smudge.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
-  min-height: 80vh;
+  min-height: 60vh;
 }
 .tile-image2 {
-  background-image: url('images/rhema-kallianpur-275251.jpg');
+  background-image: url('images/millie.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: top;
   text-align: center;
-  min-height: 80vh;
+  min-height: 60vh;
 }
-
-
 
 .tile-text p, h3 {
   padding-left: 5rem;
   padding-right: 5rem;
+  font-size: 2rem;
 }
 
 .iconsection {
   background-color: #192b37;
   color: white;
-  padding: 3rem;
+  padding: 2rem;
   min-height: 40vh;
 }
 
 .iconsection p, i {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .iconsection h3 {
@@ -94,20 +92,20 @@ span {
 }
 
 .iconsection p {
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
-.fa-cloud {
+.fa-dog {
   text-align: center;
   display: block;
   padding-bottom: 1rem;
 }
 
 .banner {
-  background-image: url('images/joanna-kosinska-129039.jpg');
+  /* background-image: url('images/joanna-kosinska-129039.jpg'); */
   background-size: cover;
   background-position: 40% 32%;
-  background-color: #f7b400;
+  background-color: #192b37;
   display: flex;
   text-align: center;
   min-height: 40vh;
@@ -160,8 +158,9 @@ span {
 }
 
 .connect-text {
-  font-size: 0.8rem;
-  padding-right: 100px;
+  font-size: 2rem;
+  /* padding-right: 70px; */
+  padding-top: 10px;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -178,7 +177,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: orange;
+  background-color: #0165bf;
   color: white;
   width: 100%;
   padding: 12px 19px;
